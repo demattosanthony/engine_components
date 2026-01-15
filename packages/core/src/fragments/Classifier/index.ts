@@ -1,4 +1,4 @@
-import * as FRAGS from "@thatopen/fragments";
+import * as FRAGS from "@ademattos/fragments";
 import { Disposable, Component, Event, Components } from "../../core";
 import { FragmentsManager, ModelIdMap } from "../FragmentsManager";
 import { ItemsFinder } from "../ItemsFinder";

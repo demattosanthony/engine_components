@@ -1,6 +1,6 @@
 /* eslint-disable camelcase */
 import * as THREE from "three";
-import * as FRAGS from "@thatopen/fragments";
+import * as FRAGS from "@ademattos/fragments";
 import { UUID } from "../../../utils";
 import {
   ViewpointVector,

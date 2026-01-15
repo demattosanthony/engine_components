@@ -1,4 +1,4 @@
-import * as FRAGS from "@thatopen/fragments";
+import * as FRAGS from "@ademattos/fragments";
 
 /**
  * Mapping of model identifiers to a collection of numbers representing localIds.

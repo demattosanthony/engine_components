@@ -16,7 +16,7 @@
 import * as THREE from "three";
 import { LineMaterial } from "three/examples/jsm/lines/LineMaterial.js";
 import Stats from "stats.js";
-import * as OBC from "@thatopen/components";
+import * as OBC from "@ademattos/components";
 import * as BUI from "@thatopen/ui";
 // You have to import * as OBF from "@thatopen/components-front"
 import * as OBF from "../..";

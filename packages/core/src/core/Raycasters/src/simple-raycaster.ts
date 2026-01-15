@@ -1,5 +1,5 @@
 import * as THREE from "three";
-import * as FRAGS from "@thatopen/fragments";
+import * as FRAGS from "@ademattos/fragments";
 import { Components } from "../../Components";
 import { Component, Event, World, Disposable } from "../../Types";
 import { Mouse } from "./mouse";

@@ -21,7 +21,7 @@ In this tutorial, we will import:
 */
 
 import * as THREE from "three";
-import * as OBC from "@thatopen/components";
+import * as OBC from "@ademattos/components";
 import Stats from "stats.js";
 import * as BUI from "@thatopen/ui";
 // You have to import * as OBF from "@thatopen/components-front"

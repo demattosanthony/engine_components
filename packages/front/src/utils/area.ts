@@ -1,6 +1,6 @@
-import * as OBC from "@thatopen/components";
+import * as OBC from "@ademattos/components";
 import * as THREE from "three";
-import { DataSet } from "@thatopen/fragments";
+import { DataSet } from "@ademattos/fragments";
 
 export class Area {
   id = OBC.UUID.create();

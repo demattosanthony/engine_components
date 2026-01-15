@@ -7,7 +7,7 @@
   First things first, let's install all necessary dependencies to make this example work:
 */
 
-import * as FRAGS from "@thatopen/fragments";
+import * as FRAGS from "@ademattos/fragments";
 import Stats from "stats.js";
 import * as BUI from "@thatopen/ui";
 // You have to import * as OBC from "@thatopen/components"

@@ -1,5 +1,5 @@
 import * as THREE from "three";
-import { DataMap } from "@thatopen/fragments";
+import { DataMap } from "@ademattos/fragments";
 import { Component, World } from "../Types";
 import { CreateViewConfig, CreateViewFromIfcStoreysConfig, View } from "./src";
 import { BoundingBoxer, FragmentsManager } from "../../fragments";

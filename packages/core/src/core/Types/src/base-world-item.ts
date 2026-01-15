@@ -1,4 +1,4 @@
-import { DataMap } from "@thatopen/fragments";
+import { DataMap } from "@ademattos/fragments";
 import { Base } from "./base";
 import { World } from "./world";
 import { Event } from "./event";

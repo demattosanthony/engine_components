@@ -1,4 +1,4 @@
-import * as OBC from "@thatopen/components";
+import * as OBC from "@ademattos/components";
 
 export class Volume {
   private _components: OBC.Components;

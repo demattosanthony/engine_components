@@ -1,5 +1,5 @@
-import * as OBC from "@thatopen/components";
-import * as FRAGS from "@thatopen/fragments";
+import * as OBC from "@ademattos/components";
+import * as FRAGS from "@ademattos/fragments";
 import * as THREE from "three";
 import { ClipStyle, ClipEdges, ClipEdgesCreationConfig } from "./src";
 

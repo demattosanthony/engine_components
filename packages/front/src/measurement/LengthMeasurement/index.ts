@@ -1,5 +1,5 @@
 import * as THREE from "three";
-import * as OBC from "@thatopen/components";
+import * as OBC from "@ademattos/components";
 import { Line } from "../../utils";
 import { Measurement } from "../Measurement";
 import { LengthMeasurerModes, LengthMeasurerTempData } from "./src";

@@ -1,6 +1,6 @@
-import * as OBC from "@thatopen/components";
+import * as OBC from "@ademattos/components";
 import * as THREE from "three";
-import { DataSet } from "@thatopen/fragments";
+import { DataSet } from "@ademattos/fragments";
 import { Highlighter } from "../Highlighter";
 import { PostproductionRenderer } from "../../core";
 import { Mesher } from "../Mesher";

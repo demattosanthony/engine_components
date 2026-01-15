@@ -5,6 +5,71 @@ __metadata:
   version: 6
   cacheKey: 8
 
+"@ademattos/components-front@workspace:packages/front":
+  version: 0.0.0-use.local
+  resolution: "@ademattos/components-front@workspace:packages/front"
+  dependencies:
+    "@ademattos/components": ~3.2.0
+    "@ademattos/fragments": ~3.2.0
+    "@ademattos/web-ifc": 0.0.75
+    "@thatopen/ui": ~3.2.0
+    "@thatopen/ui-obc": ~3.2.0
+    "@types/convert-units": 2.3.11
+    "@types/earcut": 3.0.0
+    "@types/three": ^0.175.0
+    earcut: ^3.0.1
+    three: ^0.175.0
+  peerDependencies:
+    "@ademattos/fragments": ~3.2.0
+    "@ademattos/web-ifc": ">=0.0.75"
+    three: ">=0.175.0"
+  languageName: unknown
+  linkType: soft
+
+"@ademattos/components@workspace:packages/core, @ademattos/components@~3.2.0":
+  version: 0.0.0-use.local
+  resolution: "@ademattos/components@workspace:packages/core"
+  dependencies:
+    "@ademattos/fragments": ~3.2.0
+    "@ademattos/web-ifc": 0.0.75
+    "@thatopen/ui": ~3.2.0
+    "@types/convert-units": 2.3.11
+    "@types/three": 0.175.0
+    camera-controls: ^2.9.0
+    fast-xml-parser: 4.4.1
+    jszip: 3.10.1
+    stats.js: ^0.17.0
+    three: ^0.175.0
+    three-mesh-bvh: 0.7.0
+  peerDependencies:
+    "@ademattos/fragments": ~3.2.0
+    "@ademattos/web-ifc": ">=0.0.75"
+    three: ">=0.175.0"
+  languageName: unknown
+  linkType: soft
+
+"@ademattos/fragments@npm:~3.2.0":
+  version: 3.2.13
+  resolution: "@ademattos/fragments@npm:3.2.13"
+  dependencies:
+    earcut: ^3.0.1
+    flatbuffers: 25.2.10
+    lru-cache: 11.1.0
+    pako: 2.1.0
+  peerDependencies:
+    three: ">=0.175"
+    web-ifc: ">=0.0.72"
+  checksum: 3f97872378b6561905d1245c9e7f001bb8a7d51a82a5d617fa697450f206b52b4502942ad7254963cb3aab240b7b268672272a59569473345334eaf030568cb6
+  languageName: node
+  linkType: hard
+
+"@ademattos/web-ifc@npm:0.0.75":
+  version: 0.0.75
+  resolution: "@ademattos/web-ifc@npm:0.0.75"
+  checksum: 6b297a48b84e3117836164ed806b78414662777e39d8d6f7ab56fb585a95fa2f2bb6a4cf50a965fca87713e3ad320cb973e82305fd9ffbc38e3913a0a227a541
+  languageName: node
+  linkType: hard
+
 "@babel/helper-string-parser@npm:^7.27.1":
   version: 7.27.1
   resolution: "@babel/helper-string-parser@npm:7.27.1"
@@ -726,64 +791,6 @@ __metadata:
     colors: ~1.2.1
     string-argv: ~0.3.1
   checksum: 1e62fc7aadf868c3c38db08429266962e9e1088cffd03d46e6378dd8125700540d00b566830e9510ff301a3aad3a7c55f7595a4a43d428355f648520ae9979b5
-  languageName: node
-  linkType: hard
-
-"@thatopen/components-front@workspace:packages/front":
-  version: 0.0.0-use.local
-  resolution: "@thatopen/components-front@workspace:packages/front"
-  dependencies:
-    "@thatopen/components": ~3.2.0
-    "@thatopen/fragments": ~3.2.0
-    "@thatopen/ui": ~3.2.0
-    "@thatopen/ui-obc": ~3.2.0
-    "@types/convert-units": 2.3.11
-    "@types/earcut": 3.0.0
-    "@types/three": ^0.175.0
-    earcut: 3.0.1
-    three: ^0.175.0
-    web-ifc: 0.0.72
-  peerDependencies:
-    "@thatopen/fragments": ~3.2.0
-    three: ">=0.175.0"
-    web-ifc: ">=0.0.72"
-  languageName: unknown
-  linkType: soft
-
-"@thatopen/components@workspace:packages/core, @thatopen/components@~3.2.0":
-  version: 0.0.0-use.local
-  resolution: "@thatopen/components@workspace:packages/core"
-  dependencies:
-    "@thatopen/fragments": ~3.2.0
-    "@thatopen/ui": ~3.2.0
-    "@types/convert-units": 2.3.11
-    "@types/three": 0.175.0
-    camera-controls: ^2.9.0
-    fast-xml-parser: 4.4.1
-    jszip: 3.10.1
-    stats.js: ^0.17.0
-    three: ^0.175.0
-    three-mesh-bvh: 0.7.0
-    web-ifc: 0.0.72
-  peerDependencies:
-    "@thatopen/fragments": ~3.2.0
-    three: ">=0.175.0"
-    web-ifc: ">=0.0.72"
-  languageName: unknown
-  linkType: soft
-
-"@thatopen/fragments@npm:~3.2.0":
-  version: 3.2.0
-  resolution: "@thatopen/fragments@npm:3.2.0"
-  dependencies:
-    earcut: ^3.0.1
-    flatbuffers: 25.2.10
-    lru-cache: 11.1.0
-    pako: 2.1.0
-  peerDependencies:
-    three: ">=0.175"
-    web-ifc: ">=0.0.72"
-  checksum: 606b7b05422fa2ee5083b0622e026cc5604fc9c9b185d391b27b0461979177f32d4f184affee856e4d3ba73a456b903b731c006e304637cef8aa7b314c0a2453
   languageName: node
   linkType: hard
 
@@ -1655,7 +1662,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"earcut@npm:3.0.1, earcut@npm:^3.0.1":
+"earcut@npm:^3.0.1":
   version: 3.0.1
   resolution: "earcut@npm:3.0.1"
   checksum: ed1cc8fc10829ad41b30c574e233333a6ff1b4ad548e342491efd6a54d8e7ad5042bda029ae7c7c41c711cda9b38c1a733e7baf79569ccc43ce36450a549c415
@@ -4831,13 +4838,6 @@ __metadata:
   bin:
     vue-tsc: bin/vue-tsc.js
   checksum: 98c2986df01000a3245b5f08b9db35d0ead4f46fb12f4fe771257b4aa61aa4c26dda359aaa0e6c484a6240563d5188aaa6ed312dd37cc2315922d5e079260001
-  languageName: node
-  linkType: hard
-
-"web-ifc@npm:0.0.72":
-  version: 0.0.72
-  resolution: "web-ifc@npm:0.0.72"
-  checksum: cdc5cc682c4fb9597bf99dc1bd88abeee91523eb17a0b3840ed143cc1cddf6d75d42c65274b842ec3f3a33bb9374ae2dbfb8580848d951ab8eee4a35028f5af1
   languageName: node
   linkType: hard
 

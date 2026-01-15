@@ -1,4 +1,4 @@
-import * as OBC from "@thatopen/components";
+import * as OBC from "@ademattos/components";
 import Stats from "stats.js";
 import * as BUI from "@thatopen/ui";
 import * as OBCF from "../..";

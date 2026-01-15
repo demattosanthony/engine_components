@@ -1,5 +1,5 @@
 import * as THREE from "three";
-import * as OBC from "@thatopen/components";
+import * as OBC from "@ademattos/components";
 import { CivilPoint } from "../Types";
 // import { CurveHighlighter } from "../CivilNavigator/src/curve-highlighter";
 

@@ -1,4 +1,4 @@
-import * as OBC from "@thatopen/components";
+import * as OBC from "@ademattos/components";
 
 export class PlatformComponents extends OBC.Component {
   /**

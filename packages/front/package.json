@@ -34,18 +34,18 @@
   },
   "peerDependencies": {
     "@ademattos/fragments": "~3.2.0",
-    "three": ">=0.175.0",
-    "@ademattos/web-ifc": ">=0.0.75"
+    "@ademattos/web-ifc": ">=0.0.75",
+    "three": ">=0.175.0"
   },
   "devDependencies": {
     "@ademattos/fragments": "~3.2.0",
+    "@ademattos/web-ifc": "0.0.75",
     "@thatopen/ui": "~3.2.0",
     "@thatopen/ui-obc": "~3.2.0",
     "@types/convert-units": "2.3.11",
     "@types/earcut": "3.0.0",
     "@types/three": "^0.175.0",
-    "three": "^0.175.0",
-    "@ademattos/web-ifc": "0.0.75"
+    "three": "^0.175.0"
   },
   "dependencies": {
     "@ademattos/components": "~3.2.0",

@@ -1,8 +1,8 @@
 /* eslint-disable no-dupe-class-members */
 import * as THREE from "three";
-import * as OBC from "@thatopen/components";
-import { DataMap } from "@thatopen/fragments";
-import * as FRAGS from "@thatopen/fragments";
+import * as OBC from "@ademattos/components";
+import { DataMap } from "@ademattos/fragments";
+import * as FRAGS from "@ademattos/fragments";
 import { HighlighterConfig, HighlightEvents } from "./src";
 
 /**

@@ -1,7 +1,7 @@
-import * as OBC from "@thatopen/components";
+import * as OBC from "@ademattos/components";
 import * as THREE from "three";
-import * as FRAGS from "@thatopen/fragments";
-import { DataSet } from "@thatopen/fragments";
+import * as FRAGS from "@ademattos/fragments";
+import { DataSet } from "@ademattos/fragments";
 import {
   Area,
   DimensionLine,

@@ -1,4 +1,4 @@
-import { DataMap } from "@thatopen/fragments";
+import { DataMap } from "@ademattos/fragments";
 import { Component, Disposable, Event, Configurable, World } from "../Types";
 import { Components } from "../Components";
 import { BCFViewpoint, Viewpoint } from "./src";

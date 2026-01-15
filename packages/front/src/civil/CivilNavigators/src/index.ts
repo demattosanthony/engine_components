@@ -1,5 +1,5 @@
 import * as THREE from "three";
-import * as OBC from "@thatopen/components";
+import * as OBC from "@ademattos/components";
 // import { CurveHighlighter } from "../CivilNavigator/src/curve-highlighter";
 import { CSS2DObject } from "three/examples/jsm/renderers/CSS2DRenderer.js";
 import { LineMaterial } from "three/examples/jsm/lines/LineMaterial.js";

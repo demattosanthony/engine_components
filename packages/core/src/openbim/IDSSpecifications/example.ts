@@ -8,7 +8,7 @@
 */
 
 import * as THREE from "three";
-import * as FRAGS from "@thatopen/fragments";
+import * as FRAGS from "@ademattos/fragments";
 import Stats from "stats.js";
 import * as BUI from "@thatopen/ui";
 // You have to import * as OBC from "@thatopen/components"

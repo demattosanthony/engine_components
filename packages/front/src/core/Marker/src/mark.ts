@@ -1,6 +1,6 @@
 import * as THREE from "three";
 import { CSS2DObject } from "three/examples/jsm/renderers/CSS2DRenderer.js";
-import * as OBC from "@thatopen/components";
+import * as OBC from "@ademattos/components";
 
 /**
  * Represents a marker in the 3D world.

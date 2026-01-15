@@ -1,5 +1,5 @@
 import * as THREE from "three";
-import { DataSet } from "@thatopen/fragments";
+import { DataSet } from "@ademattos/fragments";
 import { Area, DimensionLine } from "../../../utils";
 
 export interface AreaMeasurerTempData {

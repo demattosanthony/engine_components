@@ -1,6 +1,6 @@
 import * as THREE from "three";
-import * as OBC from "@thatopen/components";
-import { DataSet } from "@thatopen/fragments";
+import * as OBC from "@ademattos/components";
+import { DataSet } from "@ademattos/fragments";
 import { Mark } from "../core";
 import { newDimensionMark, newEndPoint } from "../measurement/utils";
 import { Line } from "./line";

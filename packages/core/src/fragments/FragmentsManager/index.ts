@@ -1,8 +1,8 @@
 import * as THREE from "three";
-import * as FRAGS from "@thatopen/fragments";
+import * as FRAGS from "@ademattos/fragments";
 
 // @ts-ignore
-import { FragmentsModels } from "@thatopen/fragments";
+import { FragmentsModels } from "@ademattos/fragments";
 import { Component, Components, Event, Disposable } from "../../core";
 import { ModelIdMap } from "./src";
 

@@ -1,5 +1,5 @@
 import * as THREE from "three";
-// import * as FRAGS from "@thatopen/fragments";
+// import * as FRAGS from "@ademattos/fragments";
 import { Component, Components } from "../../core";
 import { FragmentsManager, ModelIdMap } from "../../fragments";
 // import { FragmentsManager } from "../../fragments";

@@ -1,4 +1,4 @@
-import * as WEBIFC from "web-ifc";
+import * as WEBIFC from "@ademattos/web-ifc";
 
 /** Configuration of the IFC-fragment conversion. */
 export class IfcFragmentSettings {

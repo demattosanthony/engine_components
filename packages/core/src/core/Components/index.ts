@@ -7,7 +7,7 @@ import {
 import { Component, Disposable, Event } from "../Types";
 import { UUID } from "../../utils";
 import { FragmentsManager } from "../../fragments";
-import { DataMap } from "@thatopen/fragments";
+import { DataMap } from "@ademattos/fragments";
 
 /**
  * The entry point of the Components library. It can create, delete and access all the components of the library globally, update all the updatable components automatically and dispose all the components, preventing memory leaks.

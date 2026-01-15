@@ -1,5 +1,5 @@
 import * as THREE from "three";
-import * as OBC from "@thatopen/components";
+import * as OBC from "@ademattos/components";
 import { Mark } from "./src";
 
 // TODO: Right now the clustering algorithm is probably n^2

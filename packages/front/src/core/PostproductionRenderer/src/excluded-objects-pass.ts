@@ -3,7 +3,7 @@ import {
   Pass,
   FullScreenQuad,
 } from "three/examples/jsm/postprocessing/Pass.js";
-import * as OBC from "@thatopen/components";
+import * as OBC from "@ademattos/components";
 
 export class ExcludedObjectsPass extends Pass {
   // All items of this color will be excluded from postproduction

@@ -1,6 +1,6 @@
-import * as OBC from "@thatopen/components";
+import * as OBC from "@ademattos/components";
 import * as THREE from "three";
-import * as FRAGS from "@thatopen/fragments";
+import * as FRAGS from "@ademattos/fragments";
 
 /**
  * Interface defining the events that the Highlighter class can trigger. Each highlighter has its own set of events, identified by the highlighter name.

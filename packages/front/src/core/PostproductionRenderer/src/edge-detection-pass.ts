@@ -3,7 +3,7 @@ import {
   Pass,
   FullScreenQuad,
 } from "three/examples/jsm/postprocessing/Pass.js";
-import * as OBC from "@thatopen/components";
+import * as OBC from "@ademattos/components";
 
 /**
  * The mode of the edge detection pass.

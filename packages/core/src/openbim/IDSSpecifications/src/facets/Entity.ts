@@ -1,4 +1,4 @@
-import * as FRAGS from "@thatopen/fragments";
+import * as FRAGS from "@ademattos/fragments";
 import { Components } from "../../../../core/Components";
 import { IDSFacet } from "./Facet";
 import { IDSCheck, IDSFacetParameter, IDSItemCheckResult } from "../types";

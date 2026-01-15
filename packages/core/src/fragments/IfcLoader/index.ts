@@ -1,6 +1,6 @@
-import * as WEBIFC from "web-ifc";
+import * as WEBIFC from "@ademattos/web-ifc";
 // import * as THREE from "three";
-import * as FRAGS from "@thatopen/fragments";
+import * as FRAGS from "@ademattos/fragments";
 import { IfcFragmentSettings } from "./src";
 import { FragmentsManager } from "../FragmentsManager";
 import { Component, Components, Event, Disposable } from "../../core";

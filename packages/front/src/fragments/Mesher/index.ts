@@ -1,6 +1,6 @@
-import * as OBC from "@thatopen/components";
+import * as OBC from "@ademattos/components";
 import * as THREE from "three";
-import * as FRAGS from "@thatopen/fragments";
+import * as FRAGS from "@ademattos/fragments";
 
 /**
  * Mesher is a class that manages the creation and removal of THREE.Mesh objects from fragment data. It allows to efficiently retrieve and remove meshes for specific model items. 📘 [API](https://docs.thatopen.com/api/@thatopen/components-front/classes/Mesher).

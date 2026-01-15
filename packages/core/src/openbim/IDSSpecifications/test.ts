@@ -8,7 +8,7 @@
   Before we dive in, let's create a very simple app with the engine. Start by including the dependencies:
   */
 
-import * as FRAGS from "@thatopen/fragments";
+import * as FRAGS from "@ademattos/fragments";
 // You have to import from @thatopen/components
 import * as OBC from "../..";
 

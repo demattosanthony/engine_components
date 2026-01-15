@@ -1,5 +1,5 @@
 import * as THREE from "three";
-import * as OBC from "@thatopen/components";
+import * as OBC from "@ademattos/components";
 import { Volume } from "./volume";
 import { MeasureMark } from "./measure-mark";
 import { Mesher } from "../fragments";

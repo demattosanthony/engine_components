@@ -1,4 +1,4 @@
-import * as OBC from "@thatopen/components";
+import * as OBC from "@ademattos/components";
 import { Volume } from "../../utils";
 import { Measurement } from "../Measurement";
 import { VolumeMeasurerModes, VolumeMeasurerTempData } from "./src";
