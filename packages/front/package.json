@@ -1,5 +1,5 @@
 {
-  "name": "@thatopen/components-front",
+  "name": "@ademattos/components-front",
   "description": "Collection of frontend tools to author BIM apps.",
   "version": "3.2.16",
   "author": "That Open Company",
@@ -33,22 +33,22 @@
     "publish-repo": "npm publish"
   },
   "peerDependencies": {
-    "@thatopen/fragments": "~3.2.0",
+    "@ademattos/fragments": "~3.2.0",
     "three": ">=0.175.0",
-    "web-ifc": ">=0.0.72"
+    "@ademattos/web-ifc": ">=0.0.75"
   },
   "devDependencies": {
-    "@thatopen/fragments": "~3.2.0",
+    "@ademattos/fragments": "~3.2.0",
     "@thatopen/ui": "~3.2.0",
     "@thatopen/ui-obc": "~3.2.0",
     "@types/convert-units": "2.3.11",
     "@types/earcut": "3.0.0",
     "@types/three": "^0.175.0",
     "three": "^0.175.0",
-    "web-ifc": "0.0.72"
+    "@ademattos/web-ifc": "0.0.75"
   },
   "dependencies": {
-    "@thatopen/components": "~3.2.0",
+    "@ademattos/components": "~3.2.0",
     "earcut": "^3.0.1"
   }
 }

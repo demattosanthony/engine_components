@@ -1,5 +1,5 @@
 {
-  "name": "@thatopen/components",
+  "name": "@ademattos/components",
   "description": "Collection of core functionalities to author BIM apps.",
   "version": "3.2.6",
   "author": "That Open Company",
@@ -37,13 +37,13 @@
     "access": "public"
   },
   "devDependencies": {
-    "@thatopen/fragments": "~3.2.0",
+    "@ademattos/fragments": "~3.2.0",
     "@thatopen/ui": "~3.2.0",
     "@types/convert-units": "2.3.11",
     "@types/three": "0.175.0",
     "stats.js": "^0.17.0",
     "three": "^0.175.0",
-    "web-ifc": "0.0.72"
+    "@ademattos/web-ifc": "0.0.75"
   },
   "dependencies": {
     "camera-controls": "^2.9.0",
@@ -52,8 +52,8 @@
     "three-mesh-bvh": "0.7.0"
   },
   "peerDependencies": {
-    "@thatopen/fragments": "~3.2.0",
+    "@ademattos/fragments": "~3.2.0",
     "three": ">=0.175.0",
-    "web-ifc": ">=0.0.72"
+    "@ademattos/web-ifc": ">=0.0.75"
   }
 }
